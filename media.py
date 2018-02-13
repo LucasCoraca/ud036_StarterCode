@@ -1,5 +1,5 @@
 
-#Video class declartion
+# Video class declartion
 class Video():
     """class to keep video information
 
@@ -11,7 +11,7 @@ class Video():
         self.title = video_title
         self.trailer_youtube_url = video_url
 
-#Movies class declartion inherits from Video
+# Movies class declartion inherits from Video
 class Movie(Video):
     """class to keep movie information
 

@@ -1,7 +1,7 @@
 from media import Movie
 from fresh_tomatoes import open_movies_page
 
-#Movies variables declarations
+# Movies variables declarations
 blade_runner_2049 = Movie("Blade Runner 2049",
                           "https://www.youtube.com/watch?v=dZOaI_Fn5o4",
                           "Thirty years after the events of the first film, a n"
@@ -24,8 +24,8 @@ avengers =          Movie("Avengers",
                           "/TheAvengers2012Poster.jpg/220px-TheAvengers2012Post"
                           "er.jpg")
 
-#Movies list created
+# Movies list created
 movies_list = [blade_runner_2049, star_trek, avengers]
 
-#Generate the website
+# Generate the website
 open_movies_page(movies_list)
